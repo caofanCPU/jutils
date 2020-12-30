@@ -146,7 +146,7 @@ public class ImageUtil {
      *            水印位于图片左上角的 y 坐标值
      * @param alpha
      *            水印透明度 0.1f ~ 1.0f
-     * @param format
+     * #@param format
      *                 添加水印后存储的格式
      * @param destPath
      *                 文件存放路径     
@@ -255,7 +255,7 @@ public class ImageUtil {
      *                 输出图片的高度    输入负数参数表示用原来图片高
      * @param autoSize
      *                 是否等比缩放 true表示进行等比缩放 false表示不进行等比缩放
-     * @param format
+     * #@param format
      *                 压缩后存储的格式
      * @param destPath
      *                 文件存放路径
@@ -360,7 +360,7 @@ public class ImageUtil {
     /**
      * 图片黑白化操作(文件物理存盘,使用默认格式)
      * 
-     * @param bufferedImage
+     * @param imgPath
      *                 处理的图片对象
      * @param destPath
      *                 目标文件地址
@@ -375,7 +375,7 @@ public class ImageUtil {
     /**
      * 图片黑白化操作(文件物理存盘,可自定义格式)
      * 
-     * @param bufferedImage
+     * @param imgPath
      *                 处理的图片对象
      * @param format
      *                 图片格式
@@ -518,7 +518,7 @@ public class ImageUtil {
     /**
      * 图片格式转化操作返回BufferedImage对象
      * 
-     * @param bufferedImage    
+     * @param bufferedImag
      *                     BufferedImage图片转换对象
      * @param format
      *                     待转换的格式 jpeg,gif,png,bmp等
